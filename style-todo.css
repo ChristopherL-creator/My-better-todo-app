@@ -1,4 +1,12 @@
 
+ html,body{ 
+     width: 100%;
+     height: 100%;
+     padding: 0px;
+     margin: 0px;
+     background-color: rgb(202, 202, 202);
+ }
+ 
  #checkbox-text{ 
      display: none; 
 } 
@@ -6,18 +14,75 @@
 .label{ 
     width: 50px; 
     height: 50px;
-    background-color: rgb(255, 205, 139);
 } 
 
-.temp {
+.tag {
     width: fit-content;
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(22, 22, 22);
     border: 2px solid rgb(206, 206, 206);
-    color: black;
-    border-radius: 2px;
+    color: rgb(255, 239, 93);
+    border-radius: 2px; 
+    margin: 0px 3px; 
+    padding: 2px;
 }
 
-#checkbox-text:checked + label  .temp{
-    background-color: rgb(1, 1, 85);
-    color: white;
+#checkbox-casa:checked + label  .tag{
+    background-color: rgb(255, 251, 0);
+    color: rgb(22, 22, 22);
+} 
+
+#checkbox-hobby:checked + label  .tag{
+    background-color: rgb(255, 251, 0);
+    color: rgb(22, 22, 22);
+} 
+
+#checkbox-spesa:checked + label  .tag{
+    background-color: rgb(255, 251, 0);
+    color: rgb(22, 22, 22);
+} 
+
+#checkbox-lavoro:checked + label  .tag{
+    background-color: rgb(255, 251, 0);
+    color: rgb(22, 22, 22);
+} 
+
+#checkbox-random:checked + label  .tag{
+    background-color: rgb(255, 251, 0);
+    color: rgb(22, 22, 22);
+} 
+
+.prio {
+    width: fit-content;
+    background-color: rgb(109, 67, 110);
+    border: 2px solid rgb(206, 206, 206);
+    color: rgb(255, 247, 174);
+    border-radius: 2px; 
+    margin: 0px 3px; 
+    padding: 2px;
+}
+
+#checkbox-low:checked + label  .prio{
+    background-color: rgb(0, 119, 20);
+    color: rgb(253, 241, 255);
+} 
+
+#checkbox-medium:checked + label  .prio{
+    background-color: rgb(255, 251, 0);
+    color: rgb(253, 241, 255);
+} 
+
+#checkbox-high:checked + label  .prio{
+    background-color: rgb(255, 145, 0);
+    color: rgb(253, 241, 255);
+} 
+
+#checkbox-max:checked + label  .prio{
+    background-color: rgb(170, 0, 0);
+    color: rgb(253, 241, 255);
+} 
+
+
+
+.checkbox{ 
+    display: none;
 }

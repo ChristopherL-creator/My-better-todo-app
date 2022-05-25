@@ -12,27 +12,50 @@
 <body>
     <div class="todo-container">
         <input type="text" name="name-todo" id="name-todo">
-        <div class="tag-container">
-            <span class="tag">casa</span>
-            <span class="tag">hobby</span>
-            <span class="tag">spesa</span>
-            <span class="tag">lavoro</span>
-            <span class="tag">random</span>
+        <div class="tag-container"> 
+            <h3>    Tags    </h3>
+            <input type="checkbox" id="checkbox-casa" class="checkbox"> 
+            <label for="checkbox-casa" class="label">
+                <span class="tag">  Casa    </span>
+            </label> 
+            <input type="checkbox" id="checkbox-hobby" class="checkbox"> 
+            <label for="checkbox-hobby" class="label">
+            <span class="tag">  Hobby    </span>
+            </label> 
+            <input type="checkbox" id="checkbox-spesa" class="checkbox"> 
+            <label for="checkbox-spesa" class="label">
+                <span class="tag">  Spesa    </span>
+            </label> 
+            <input type="checkbox" id="checkbox-lavoro" class="checkbox"> 
+            <label for="checkbox-lavoro" class="label">
+                <span class="tag">  Lavoro    </span>
+            </label> 
+            <input type="checkbox" id="checkbox-random" class="checkbox"> 
+            <label for="checkbox-random" class="label">
+                <span class="tag">  Random    </span>
+            </label>
         </div>
         <div> <!--elenco priorità come bottoni? -->
-            <h3>Priorità</h3>
-            <span>bassa</span>
-            <span>media</span>
-            <span>alta</span>
-            <span>molto alta</span> 
-            
-        </div>
+            <h3>    Priorità    </h3>
+            <input type="checkbox" id="checkbox-low" class="checkbox"> 
+            <label for="checkbox-low" class="label">
+                <span class="prio">  Bassa    </span>
+            </label> 
+            <input type="checkbox" id="checkbox-medium" class="checkbox"> 
+            <label for="checkbox-medium" class="label">
+            <span class="prio">  Media    </span>
+            </label> 
+            <input type="checkbox" id="checkbox-high" class="checkbox"> 
+            <label for="checkbox-high" class="label">
+                <span class="prio">  Alta    </span>
+            </label> 
+            <input type="checkbox" id="checkbox-max" class="checkbox"> 
+            <label for="checkbox-max" class="label">
+                <span class="prio">  Molto Alta    </span>
+            </label> 
+        </div> 
+        
     </div>
-    <input type="checkbox" id="checkbox-text"> 
-    <label for="checkbox-text" class="label">
-        <div class="temp">#TAG</div>
-    </label>
-    
      <!-- creare checkbox personale, display: none   -->
 </body>
 <script src="./todo.js"></script>
