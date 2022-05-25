@@ -68,7 +68,7 @@
 
 #checkbox-medium:checked + label  .prio{
     background-color: rgb(255, 251, 0);
-    color: rgb(253, 241, 255);
+    color: rgb(187, 41, 255);
 } 
 
 #checkbox-high:checked + label  .prio{

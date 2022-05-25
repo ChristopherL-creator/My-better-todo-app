@@ -31,4 +31,6 @@ function getTodoFromSession(){
         console.log(todo);
     }
 }
-parseUrlParams2()
+parseUrlParams2() 
+
+
